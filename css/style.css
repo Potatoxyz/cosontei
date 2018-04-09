@@ -12,13 +12,13 @@ input, button {
 body {
 	color:#333;
 	font-size:12px;
-	font-family:"ËÎÌå", Verdana, Arial, Helvetica, sans-serif;
+	font-family:"ï¿½ï¿½ï¿½ï¿½", Verdana, Arial, Helvetica, sans-serif;
 }
 h1, h2, h3, h4, h5, h6, p, ul, ol, dl, em {
 	text-align:center;
 	color:#333;
 	font-style:normal;
-	font-family:"ËÎÌå", Verdana, Arial, Helvetica, sans-serif;
+	font-family:"ï¿½ï¿½ï¿½ï¿½", Verdana, Arial, Helvetica, sans-serif;
 }
 h1, h2, h3, h4, h5, h6 {
 	font-size:14px;
@@ -174,8 +174,8 @@ div.content{
 .image_show .tabs_panes .img .img_mask {
 	position:absolute;
 	left:0;
-	top:340px;
-	width:304px;
+	bottom:10px;
+	width:350px;
 	height:42px;
 	background:#000;
 	opacity:0.6;
@@ -184,8 +184,8 @@ div.content{
 .image_show .tabs_panes .img p {
 	position:absolute;
 	left:0;
-	top:340px;
-	width:274px;
+	bottom:10px;
+	width:320px;
 	padding:0 15px;
 	height:42px;
 	line-height:42px;
@@ -207,4 +207,40 @@ div.content{
 	background:#000;
 	opacity:0.4;
 	filter:alpha(opacity=40);
+}
+.col_left .img a img{
+	width:100%;
+}
+
+#bigImg{
+	margin-right: 10px;
+	overflow: hidden;
+	background: #FBF7F1;
+	padding: 0;
+}
+#bigImg img{
+	width: 100%;
+}
+.image_show{
+	width: 1160px;
+}
+.col_left{
+	width: 160px;
+	height: 480px;
+}
+.col_left .mask{
+	width: 157px;
+	height: 157px;
+}
+.image_show .tabs_panes .img{
+	height: 480px;
+	width: 350px;
+}
+.col_right{
+	height: 480px;
+	width: 600px;
+}
+.r_bottom img,.r_bottom .mask{
+	width: 196px;
+	height: 253px;
 }
